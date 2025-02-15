@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+/* .container{
+    width: 98%;
+    margin: 0 auto
+} */
+/* universal section start */
+.nav_container{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ height: 100%;
+ background-color: black;
+}
+/* universal section end */
+
+/* navbar section start */
+.nav_menu{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.nav_menu a{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 0%;
+    color: #EEEEEE;
+}
+
+h3{
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35.57px;
+    letter-spacing: 0%;
+    color: #EEEEEE;
+}
+a{
+    text-decoration: none;
+}
+
+/* navbar section end */
+
+
+/* creative_ui section start */
+.creative_ui{
+    position: relative;
+    display: flex;
+    top: 3rem;
+    background-color: black;
+}
+ h1{
+    color: #EEEEEE;
+}
+h1 span{
+    color: #00ADB5;
+
+}
+.btn{
+    border-style: none;
+    width: 136px;
+    height: 47px;
+    border-radius: 24px;
+    background-color: #00ADB5;
+}
+.doun_btn{
+    width: 216px;
+    height: 45px;
+    border-radius: 24px;
+    background-color: #393E46BF;
+    color: #EEEEEE;
+    border-style: none
+}
+
+.image_1{
+    width: 400px;
+    height: 472px;
+}
+.image_1 i{
+    background-color: #EEEEEE;
+    font-size: 3em
+}
+/* creative_ui section end */
+
+.about_me{
+    position: relative;
+    top: 8rem;
+    display: flex;
+}
+.about p{
+    color: #EEEEEEBF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+}
+.about p span{
+    color: #EEEEEE;
+}
+.about_2{
+    background-image: url("/Images/doodle\ items.png");
+}
+
+/*  */
+.recent_work{
+    position: relative;
+    top: 3rem;
+}
+.image_3 img{
+    width: 1000px;
+}
+.work{
+    position: relative;
+    top: 10rem;
+    gap: 16px ;
+}
+.btn_all{
+    width: 82px;
+    height: 47px;
+    border-radius: 24px;
+    border-style: none;
+    background-color: #00ADB5;
+}
+.btn_u{
+    width: 82px;
+    height: 47px;
+    border-radius: 24px;
+    border-style: none;
+}
+.btn_web{
+    width: 172px;
+    height: 47px;
+    border-radius: 24px;
+    border-style: none;
+}
+
+.image_2{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+        top: 12rem;
+}
+.image_2 img{
+    width: 265px;
+    height: 158px;
+}
+
+.project_in{
+    position: relative;
+    top: 13rem;
+}
+/*  */
+.project_in h1{
+    position: relative;
+    top: 5rem;
+}
+.all_input{
+    position: relative;
+    display: flex;
+    top: 5rem;
+}
+.image_4 img{
+    margin-left: 5rem;
+}
+.form_control{
+    color: #EEEEEE;
+}
+.name_email{
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 96px
+}
+
+form{
+    color: #EEEEEE;
+}
+/*  */
+.footer_section{
+    position: relative;
+    top: 20rem;
+}
+.flex input{
+    position: relative;
+    display: flex;
+}
+.flex{
+    display: inline;
+}
+.home i{
+    color: #EEEEEE;
+    font-size: 18px;
+    padding: 0.5rem;
+    position: relative;
+    left: 3rem;
+}
+.contacts i{
+    position: relative;
+    color: #EEEEEE;
+    padding: 10px;
+    left: 9rem;
+}
